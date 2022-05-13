@@ -1,25 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_myfree.c                                        :+:      :+:    :+:   */
+/*   ft_myrealloc.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lasalmi <lasalmi@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/13 12:06:08 by lasalmi           #+#    #+#             */
-/*   Updated: 2022/05/13 15:17:25 by lasalmi          ###   ########.fr       */
+/*   Created: 2022/05/13 13:58:54 by lasalmi           #+#    #+#             */
+/*   Updated: 2022/05/13 15:17:43 by lasalmi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft/libft.h"
 
-/* Frees memory allocated by mymalloc */
-
-void	ft_myfree(void **ptr)
+void	*ft_myrealloc(void *ptr, size_t size)
 {
-	size_t	*to_free;
+	void	*new_ptr;
 
-	to_free = *ptr;
-	to_free -= 2;
-	free(to_free);
-	*ptr = NULL;
+	new_ptr = ft_mymalloc(size);
+	ft_memcpy(new_ptr, ptr, ft_memallocated(ptr));
+	ft_myfree(ptr);
+	return (new_ptr);
 }

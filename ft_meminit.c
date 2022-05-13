@@ -6,7 +6,7 @@
 /*   By: lasalmi <lasalmi@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 11:22:01 by lasalmi           #+#    #+#             */
-/*   Updated: 2022/05/13 12:13:12 by lasalmi          ###   ########.fr       */
+/*   Updated: 2022/05/13 15:16:17 by lasalmi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,4 @@ void	ft_meminit(void **ptr, size_t size)
 {
 	*ptr = ft_mymalloc(size);
 	ft_trackmem(*ptr, NULL);
-}
-
-void	ft_memupdate(void **ptr)
-{
-
 }
