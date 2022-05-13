@@ -6,12 +6,12 @@
 /*   By: lasalmi <lasalmi@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 11:22:01 by lasalmi           #+#    #+#             */
-/*   Updated: 2022/05/13 15:16:17 by lasalmi          ###   ########.fr       */
+/*   Updated: 2022/05/13 15:26:37 by lasalmi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft/libft.h"
-
+#include "ft_mem.h"
 /*If start is given, saves that ptr for later use, and subsequent
 calls returns the distance of start and current */
 

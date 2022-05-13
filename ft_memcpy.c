@@ -6,11 +6,11 @@
 /*   By: lasalmi <lasalmi@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 16:02:48 by lasalmi           #+#    #+#             */
-/*   Updated: 2022/05/13 15:12:09 by lasalmi          ###   ########.fr       */
+/*   Updated: 2022/05/13 15:26:03 by lasalmi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft/libft.h"
 #include <stdio.h>
 
 static void ft_thirdcpy(void *dest, const void *src, size_t *n)

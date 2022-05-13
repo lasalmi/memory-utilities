@@ -6,12 +6,12 @@
 /*   By: lasalmi <lasalmi@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 21:55:37 by lasalmi           #+#    #+#             */
-/*   Updated: 2022/05/12 21:58:55 by lasalmi          ###   ########.fr       */
+/*   Updated: 2022/05/13 15:26:40 by lasalmi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft/libft.h"
-
+#include "ft_mem.h"
 /* Returns the size of the mymalloc allocated memory
 pointed by ptr */
 

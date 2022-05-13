@@ -6,12 +6,12 @@
 /*   By: lasalmi <lasalmi@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 21:50:01 by lasalmi           #+#    #+#             */
-/*   Updated: 2022/05/12 22:11:06 by lasalmi          ###   ########.fr       */
+/*   Updated: 2022/05/13 15:26:45 by lasalmi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft/libft.h"
-
+#include "ft_mem.h"
 /* Allocates memory and stores the size of the allocation
 to the start of the allocated memory and sets used(*++allocated) after.
 returns the memory address after them */
